@@ -25,7 +25,7 @@
 </div>
 
 <!-- programming tool icon 编程工具图标 -->
-<img alt="Icons" src="https://xera-2011.vercel.app/api/github/icons?i=react,vue,next,nuxt,vite,vscode,idea,git,python,docker" /><br>
+<!-- <img alt="Icons" src="https://xera-2011.vercel.app/api/github/icons?i=react,vue,next,nuxt,vite,vscode,idea,git,python,docker" /><br> -->
 
 <!-- Snake Code Contribution Map -->
 <picture>
