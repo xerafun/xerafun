@@ -6,7 +6,7 @@
     }
   </style>
 
-  <!-- 中间斜长杠 (/)：从左下进场，停留2秒，再从右上开出出场 -->
+  <!-- 中间斜长杠 (/)：从左下进场，停留2秒，再向右上驶离出场 -->
   <line class="line-main" x1="25.35" y1="74.65" x2="74.65" y2="25.35" stroke-width="14" stroke-linecap="butt"
         stroke-dasharray="70 70" stroke-dashoffset="70">
     <animate attributeName="stroke-dashoffset"
@@ -18,7 +18,7 @@
              keySplines="0.4 0 0.2 1; 0 0 1 1; 0.4 0 0.2 1; 0 0 1 1" />
   </line>
 
-  <!-- 左上段斜线 (\)：从左上进场，停留2秒，再向中心开出出场 -->
+  <!-- 左上段斜线 (\)：从左上进场，停留2秒，再向中心驶离出场 -->
   <line class="line-main" x1="25.35" y1="25.35" x2="40.10" y2="40.10" stroke-width="14" stroke-linecap="butt"
         stroke-dasharray="21 21" stroke-dashoffset="21">
     <animate attributeName="stroke-dashoffset"
@@ -30,8 +30,8 @@
              keySplines="0.4 0 0.2 1; 0 0 1 1; 0.4 0 0.2 1; 0 0 1 1" />
   </line>
 
-  <!-- 右下段斜线 (\)：从右下进场，停留2秒，再向中心开出出场 -->
-  <line class="line-main" x1="74.65" y1="74.65" x2="59.90" y2="59.90" stroke-width="14" stroke-linecap="butt"
+  <!-- 右下段斜线 (\)：与左上段同向，从中心进场，停留2秒，再向右下驶离出场 -->
+  <line class="line-main" x1="59.90" y1="59.90" x2="74.65" y2="74.65" stroke-width="14" stroke-linecap="butt"
         stroke-dasharray="21 21" stroke-dashoffset="21">
     <animate attributeName="stroke-dashoffset"
              dur="3.8s"
