@@ -6,30 +6,39 @@
     }
   </style>
 
-  <!-- Center Diagonal Long Bar (/) - Draws from bottom-left (25.35, 74.65) to top-right (74.65, 25.35) -->
+  <!-- 中间斜长杠 (/)：从左下进场，停留2秒，再从右上开出出场 -->
   <line class="line-main" x1="25.35" y1="74.65" x2="74.65" y2="25.35" stroke-width="14" stroke-linecap="butt"
-        stroke-dasharray="70" stroke-dashoffset="70">
-    <animate id="draw_bar" attributeName="stroke-dashoffset" from="70" to="0" dur="0.5s"
-             begin="0s; undraw_bar.end" fill="freeze" />
-    <animate id="undraw_bar" attributeName="stroke-dashoffset" from="0" to="70" dur="0.5s"
-             begin="draw_bar.end + 5s" fill="freeze" />
+        stroke-dasharray="70 70" stroke-dashoffset="70">
+    <animate attributeName="stroke-dashoffset"
+             dur="3.8s"
+             repeatCount="indefinite"
+             calcMode="spline"
+             keyTimes="0; 0.184; 0.711; 0.895; 1"
+             values="70; 0; 0; -70; -70"
+             keySplines="0.4 0 0.2 1; 0 0 1 1; 0.4 0 0.2 1; 0 0 1 1" />
   </line>
 
-  <!-- Top-Left Segment (\) - Draws from Top-Left (25.35, 25.35) to Center (40.10, 40.10) -->
+  <!-- 左上段斜线 (\)：从左上进场，停留2秒，再向中心开出出场 -->
   <line class="line-main" x1="25.35" y1="25.35" x2="40.10" y2="40.10" stroke-width="14" stroke-linecap="butt"
-        stroke-dasharray="21" stroke-dashoffset="21">
-    <animate attributeName="stroke-dashoffset" from="21" to="0" dur="0.5s"
-             begin="0s; undraw_bar.end" fill="freeze" />
-    <animate attributeName="stroke-dashoffset" from="0" to="21" dur="0.5s"
-             begin="draw_bar.end + 5s" fill="freeze" />
+        stroke-dasharray="21 21" stroke-dashoffset="21">
+    <animate attributeName="stroke-dashoffset"
+             dur="3.8s"
+             repeatCount="indefinite"
+             calcMode="spline"
+             keyTimes="0; 0.184; 0.711; 0.895; 1"
+             values="21; 0; 0; -21; -21"
+             keySplines="0.4 0 0.2 1; 0 0 1 1; 0.4 0 0.2 1; 0 0 1 1" />
   </line>
 
-  <!-- Bottom-Right Segment (\) - Draws from Bottom-Right (74.65, 74.65) to Center (59.90, 59.90) -->
+  <!-- 右下段斜线 (\)：从右下进场，停留2秒，再向中心开出出场 -->
   <line class="line-main" x1="74.65" y1="74.65" x2="59.90" y2="59.90" stroke-width="14" stroke-linecap="butt"
-        stroke-dasharray="21" stroke-dashoffset="21">
-    <animate attributeName="stroke-dashoffset" from="21" to="0" dur="0.5s"
-             begin="0s; undraw_bar.end" fill="freeze" />
-    <animate attributeName="stroke-dashoffset" from="0" to="21" dur="0.5s"
-             begin="draw_bar.end + 5s" fill="freeze" />
+        stroke-dasharray="21 21" stroke-dashoffset="21">
+    <animate attributeName="stroke-dashoffset"
+             dur="3.8s"
+             repeatCount="indefinite"
+             calcMode="spline"
+             keyTimes="0; 0.184; 0.711; 0.895; 1"
+             values="21; 0; 0; -21; -21"
+             keySplines="0.4 0 0.2 1; 0 0 1 1; 0.4 0 0.2 1; 0 0 1 1" />
   </line>
 </svg>
