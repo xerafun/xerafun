@@ -1,19 +1,37 @@
 <svg viewBox="0 0 100 100" width="50" height="50" xmlns="http://www.w3.org/2000/svg">
-  <line x1="25" y1="25" x2="75" y2="75" stroke="black" stroke-width="15"
-        stroke-dasharray="71" stroke-dashoffset="71">
-    
-    <animate id="draw1" attributeName="stroke-dashoffset" from="71" to="0" dur="0.5s" 
+  <style>
+    .line-main { stroke: #0a0a0a; }
+    .line-mask { stroke: #ffffff; }
+    @media (prefers-color-scheme: dark) {
+      .line-main { stroke: #ffffff; }
+      .line-mask { stroke: #0d1117; }
+    }
+  </style>
+
+  <!-- Line 1: Main stroke (\) -->
+  <line class="line-main" x1="30.3" y1="30.3" x2="69.7" y2="69.7" stroke-width="12" stroke-linecap="square"
+        stroke-dasharray="60" stroke-dashoffset="60">
+    <animate id="draw1" attributeName="stroke-dashoffset" from="60" to="0" dur="0.5s"
              begin="0s; undraw2.end" fill="freeze" />
-    
-    <animate id="undraw1" attributeName="stroke-dashoffset" from="0" to="71" dur="0.5s" 
-             begin="draw2.end + 5s" fill="freeze" /> </line>
-  
-  <line x1="25" y1="75" x2="75" y2="25" stroke="black" stroke-width="15"
-        stroke-dasharray="71" stroke-dashoffset="71">
-    
-    <animate id="draw2" attributeName="stroke-dashoffset" from="71" to="0" dur="0.5s" 
+    <animate id="undraw1" attributeName="stroke-dashoffset" from="0" to="60" dur="0.5s"
+             begin="draw2_bg.end + 5s" fill="freeze" />
+  </line>
+
+  <!-- Line 2: Mask/Border cut stroke (/) -->
+  <line class="line-mask" x1="30.3" y1="69.7" x2="69.7" y2="30.3" stroke-width="18" stroke-linecap="square"
+        stroke-dasharray="60" stroke-dashoffset="60">
+    <animate id="draw2_bg" attributeName="stroke-dashoffset" from="60" to="0" dur="0.5s"
              begin="draw1.end" fill="freeze" />
-             
-    <animate id="undraw2" attributeName="stroke-dashoffset" from="0" to="71" dur="0.5s" 
-             begin="draw2.end + 5s" fill="freeze" /> </line>
+    <animate id="undraw2" attributeName="stroke-dashoffset" from="0" to="60" dur="0.5s"
+             begin="draw2_bg.end + 5s" fill="freeze" />
+  </line>
+
+  <!-- Line 2: Main core stroke (/) -->
+  <line class="line-main" x1="30.3" y1="69.7" x2="69.7" y2="30.3" stroke-width="12" stroke-linecap="square"
+        stroke-dasharray="60" stroke-dashoffset="60">
+    <animate attributeName="stroke-dashoffset" from="60" to="0" dur="0.5s"
+             begin="draw1.end" fill="freeze" />
+    <animate attributeName="stroke-dashoffset" from="0" to="60" dur="0.5s"
+             begin="draw2_bg.end + 5s" fill="freeze" />
+  </line>
 </svg>
