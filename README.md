@@ -1,5 +1,3 @@
-![Banner](./assets/banner.jpeg)
-
 ![X Icon](./assets/x-icon.svg) [![Typing SVG](https://xerafun.vercel.app/api/github/typing-svg?font=monospace&size=14&color=000000&background=00000000&width=750&height=52&repeat=false&center=false&vCenter=true&multiline=true&duration=5000&pause=1000&repeat=true&letterSpacing=normal&bold=true&type=movie-quotes)](https://xerafun.vercel.app/github/typing-svg)
 
 <!-- Snake Code Contribution Map -->
