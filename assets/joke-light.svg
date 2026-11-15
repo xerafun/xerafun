@@ -1,0 +1,21 @@
+<svg width="500" height="140" viewBox="0 0 500 140" xmlns="http://www.w3.org/2000/svg">
+  <rect x="1" y="1" width="498" height="138" rx="12" fill="#ffffff" stroke="#e4e4e7" stroke-width="1.5"/>
+  
+  <g transform="translate(24, 28)">
+    <!-- Question -->
+    <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#18181b">
+      <tspan fill="#0284c7">Q. </tspan>Relationship status?
+    </text>
+    <text x="0" y="22" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="12" fill="#71717a">
+      问：恋爱状态？
+    </text>
+
+    <!-- Answer -->
+    <text x="0" y="56" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#18181b">
+      <tspan fill="#0284c7">A. </tspan>I&apos;ll leave the relations to the database.
+    </text>
+    <text x="0" y="78" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="12" fill="#71717a">
+      答：我会把关系（relations）留给数据库。
+    </text>
+  </g>
+</svg>

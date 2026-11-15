@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 50" width="680" height="50">
+  <defs>
+    
+    <clipPath id="clip0">
+      <rect x="0" y="0" width="0" height="50">
+        <animate id="anim0" attributeName="width"
+          begin="0s; anim2.end"
+          dur="7s"
+          values="0; 680; 680; 0"
+          keyTimes="0; 0.42; 0.88; 1"
+          fill="remove" />
+      </rect>
+    </clipPath>
+    <clipPath id="clip1">
+      <rect x="0" y="0" width="0" height="50">
+        <animate id="anim1" attributeName="width"
+          begin="anim0.end"
+          dur="7s"
+          values="0; 680; 680; 0"
+          keyTimes="0; 0.42; 0.88; 1"
+          fill="remove" />
+      </rect>
+    </clipPath>
+    <clipPath id="clip2">
+      <rect x="0" y="0" width="0" height="50">
+        <animate id="anim2" attributeName="width"
+          begin="anim1.end"
+          dur="7s"
+          values="0; 680; 680; 0"
+          keyTimes="0; 0.42; 0.88; 1"
+          fill="remove" />
+      </rect>
+    </clipPath>
+  </defs>
+  <style>
+    text { user-select: none; }
+  </style>
+  
+    <g clip-path="url(#clip0)">
+      <text x="4" y="21" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13" font-weight="700" fill="#ffffff">
+        You are braver than you believe. – Christopher Robin
+      </text>
+      <text x="4" y="41" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="12" font-weight="500" fill="#a1a1aa">
+        你比你想象的更勇敢。——克里斯托弗·罗宾
+      </text>
+    </g>
+    <g clip-path="url(#clip1)">
+      <text x="4" y="21" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13" font-weight="700" fill="#ffffff">
+        Life is like a box of chocolates, you never know what you&apos;re gonna get.
+      </text>
+      <text x="4" y="41" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="12" font-weight="500" fill="#a1a1aa">
+        生活就像一盒巧克力，你永远不知道下一颗是什么味道。——《阿甘正传》
+      </text>
+    </g>
+    <g clip-path="url(#clip2)">
+      <text x="4" y="21" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13" font-weight="700" fill="#ffffff">
+        It is not our abilities that show what we truly are, it is our choices.
+      </text>
+      <text x="4" y="41" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="12" font-weight="500" fill="#a1a1aa">
+        决定我们成为什么样的人，不是我们的能力，而是我们的选择。——《哈利·波特》
+      </text>
+    </g>
+</svg>
