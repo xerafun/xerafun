@@ -12,13 +12,13 @@
 
       <!-- Price -->
       <text x="14" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700" fill="#18181b">
-        $61,700
+        $59,664
       </text>
 
       <!-- 24h Change badge -->
-      <rect x="14" y="62" width="70" height="18" rx="9" fill="#16a34a18"/>
-      <text x="49" y="75" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" fill="#16a34a" text-anchor="middle">
-        &#x2197; +1.96%
+      <rect x="14" y="62" width="70" height="18" rx="9" fill="#dc262618"/>
+      <text x="49" y="75" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" fill="#dc2626" text-anchor="middle">
+        &#x2198; 3.47%
       </text>
     </g>
 
@@ -34,13 +34,13 @@
 
       <!-- Price -->
       <text x="14" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700" fill="#18181b">
-        $1,734.03
+        $1,653.57
       </text>
 
       <!-- 24h Change badge -->
-      <rect x="14" y="62" width="70" height="18" rx="9" fill="#16a34a18"/>
-      <text x="49" y="75" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" fill="#16a34a" text-anchor="middle">
-        &#x2197; +2.62%
+      <rect x="14" y="62" width="70" height="18" rx="9" fill="#dc262618"/>
+      <text x="49" y="75" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" fill="#dc2626" text-anchor="middle">
+        &#x2198; 4.70%
       </text>
     </g>
 
@@ -56,13 +56,13 @@
 
       <!-- Price -->
       <text x="14" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700" fill="#18181b">
-        $73.25
+        $71.11
       </text>
 
       <!-- 24h Change badge -->
-      <rect x="14" y="62" width="70" height="18" rx="9" fill="#16a34a18"/>
-      <text x="49" y="75" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" fill="#16a34a" text-anchor="middle">
-        &#x2197; +3.45%
+      <rect x="14" y="62" width="70" height="18" rx="9" fill="#dc262618"/>
+      <text x="49" y="75" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" fill="#dc2626" text-anchor="middle">
+        &#x2198; 2.55%
       </text>
     </g>
 
@@ -78,13 +78,13 @@
 
       <!-- Price -->
       <text x="14" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700" fill="#18181b">
-        $565.15
+        $550.96
       </text>
 
       <!-- 24h Change badge -->
-      <rect x="14" y="62" width="70" height="18" rx="9" fill="#16a34a18"/>
-      <text x="49" y="75" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" fill="#16a34a" text-anchor="middle">
-        &#x2197; +1.97%
+      <rect x="14" y="62" width="70" height="18" rx="9" fill="#dc262618"/>
+      <text x="49" y="75" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" fill="#dc2626" text-anchor="middle">
+        &#x2198; 2.65%
       </text>
     </g>
 </svg>
